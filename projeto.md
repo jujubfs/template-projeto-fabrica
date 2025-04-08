@@ -107,7 +107,7 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 # Diagrama de Classes
 
-![Diagrama de Classes](/img/diagramaClasse.png)
+![Diagrama de Classes](/img/CDModelo.png)
 
 [ [INÍCIO](#fibonacci-management-system) ]
 
