@@ -29,10 +29,8 @@ Ao final, o repositório deverá possuir o seguinte conteúdo:
 
 - Arquivo [LICENSE](LICENSE) contendo licenciamento [MIT](https://choosealicense.com/licenses/mit/)
 
-- Diagrama de Casos de Uso (modelo editável e imagem armazenados nos respectivos diretórios)
 - Diagrama de Classes (modelo editável e imagem armazenados nos respectivos diretórios)
-- Diagrama de Atividades (modelo editável e imagem armazenados nos respectivos diretórios)
-- Diagrama de Sequências (modelo editável e imagem armazenados nos respectivos diretórios)
+
 
 ## Links Úteis
 [Guia básico de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
