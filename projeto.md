@@ -7,11 +7,13 @@
 ## *Stakeholders*
 |NOME|CARGO|E-MAIL|
 |:---|:---|:---|
-|Wagner da Silva Ferreira Filho|Gerente de Projeto|wagner.ferreira@ifro.edu.br|
-|Wagner da Silva Ferreira Filho|Gerente de Projeto|wagner.ferreira@ifro.edu.br|
-|Wagner da Silva Ferreira Filho|Gerente de Projeto|wagner.ferreira@ifro.edu.br|
-|Wagner da Silva Ferreira Filho|Gerente de Projeto|wagner.ferreira@ifro.edu.br|
-|Wagner da Silva Ferreira Filho|Gerente de Projeto|wagner.ferreira@ifro.edu.br|
+|Julia Vitória Bitencourt da Fonseca Silva|Gerente de Projeto|julia.bitencourt@estudante.ifro.edu.br|
+|Maria Vitória Oliveira Teixeira|Full Stack|v.maria@estudante.ifro.edu.br|
+|Ana Paula Clemente del Barco|Full Stack|paula.barco@estudante.ifro.edu.br|
+|Yasmin Vitória Paiano|Full Stack|yasmimvitoriapaiano@gmail.com|
+|Elyã Zam da Silva Sousa|Full Stack|elyazssousa@gmail.com|
+|Nícollas Piettro Damatta Silva|Full Stack|damatta.nicollas@estudante.ifro.edu.br|
+|Davi Valadão Fantin|Full Stack|v.davi.f10@gmail.com|
 
 
 # Sumário
@@ -35,11 +37,11 @@
 # RESUMO DO PROJETO
 | ITEM | DESCRIÇÃO|
 |:---|:---|
-| NOME DO PROJETO | Fibonacci Management System |
-| GERENTE DO PROJETO | Wagner Ferreira |
-| PRINCIPAL OBJETIVO | Auxiliar o sistema de ensino através de ferramentas síncronas e assíncronas que serão usadas por funcionários e alunos da instituição de ensino. |
-| BENEFÍCIOS ESPERADOS |* Melhor acompanhamento pedagógico;<br/>* Redução da evasão escolar;<br/>* Aumento do número de matrículas;<br/>* Redução da inadimplência escolar;<br/>* Automatização dos processos financeiross|
-| INÍCIO E TÉRMINO PREVISTOS | 14/03/2023 - 07/12/2023 |
+| NOME DO PROJETO | Biblioteca |
+| GERENTE DO PROJETO | Julia Vitória Bitencourt da Fonseca Silva |
+| PRINCIPAL OBJETIVO | Desenvolver um software que possa representar a biblioteca de forma online, afim de trazer mais acessibilidade as pessoas. |
+| BENEFÍCIOS ESPERADOS |* Aumento no lucro da biblioteca real;<br/>* Novos alcances em mais leitores;<br/>* Menor curso de operação;<br/>* Mais reconhecimento;<br/>*|
+| INÍCIO E TÉRMINO PREVISTOS | 07/2025 - 07/2026 |
 
 [ [INÍCIO](#fibonacci-management-system) ]
 
@@ -80,8 +82,14 @@ A tabela a seguir contém a relação dos Requisitos Funcionais elicitados, com 
 
 | IDENTIFICADOR | NOME | DESCRIÇÃO |
 :---|:---|:---|
-|RF-001 |Nome do Requisito | Descreva aqui as informações sobre o requisito |
-|RF-002 | Nome do Requisito | Descreva aqui as informações sobre o segundo requisito |
+|RF-001 |Cadastrar usuário na plataforma | Todos os usuários da plataforma precisam se registrar, fornecendo dados pessoais mínimos como e-mail, senha, nome completo, CPF, data de nascimento e endereço. O registro pode ser feito por meio de um formulário ou integração com contas do Google, Microsoft, Facebook ou login do servidor público. Cada usuário terá um perfil de acesso específico, que pode ser ajustado ou expandido conforme as necessidades surgirem. |
+|RF-002 | Publicar, manter e excluir documentos | A ferramenta permite que os usuários façam upload de materiais textuais em vários formatos, como OpenDocument, Microsoft Office, Adobe PDF, Plain Text e RichText Format, para os espaços digitais existentes.|
+|RF-003 | Excluir conta do usuário | A funcionalidade permite que os usuários excluam suas contas da plataforma diretamente na página de perfil, com uma confirmação simples via palavra-chave. Os dados da conta são excluídos imediatamente após a confirmação.|
+|RF-004 | Crias, manter e excluir salas de chat online (mensagens instantâneas) | Os administradores dos espaços digitais podem criar, manter e excluir salas de bate-papo online, onde os participantes interagem por meio de mensagens de texto. As salas podem ser configuradas para permitir apenas convidados ou serem abertas para usuários cadastrados na plataforma.|
+|RF-005 | Criar, manter e excluir “subsites” | A plataforma permite a criação de "subsites", que são seções independentes com seus próprios espaços digitais, comunidades e recursos. Apenas administradores e gestores podem criar subsites, que podem ter recursos exclusivos ou compartilhados com a plataforma principal e também podem personalizar seus temas gráficos.|
+|RF-006 | Buscar conteúdo na plataforma | Permite aos usuários localizar conteúdos diversos na plataforma, tais como postagens em fóruns, comunidades, pessoas, documentos, imagens, vídeos, web rádios etc. A busca deve ser realizada por padrão no contexto onde se encontra o usuário, mas sendo possível expandi-lo para toda a plataforma. Os resultados exibidos são apenas os que o usuário é capaz de acessar. A consulta deve reconhecer os principais operadores de busca, tais como “AND”, “OR”, “XOR”, “NOT”. Deve ainda existir uma opção de consulta avançada, onde é possível determinar critérios adicionais, como tipos de conteúdo, intervalo de tempo, nome de usuário etc.|
+|RF-007 | Cadastrar perfis de usuários | Os perfis de usuários são definidos pelo Governo do Estado e configurados pela administração da plataforma, permitindo incluir perfis de acesso com permissões específicas. Existem perfis pré-existentes, como Administrador, Gestor, Governo, OSC e Cidadão, além de perfis para espaços digitais, como Administrador, Moderador e Padrão. O perfil "Cidadão" é o padrão para novos usuários, com permissões mínimas.|
+|RF-008 | Identificar-se (login) na plataforma | A plataforma requer autenticação do usuário por meio de login e senha, com opção de login via Google, Facebook, Microsoft e, se possível, Governo do Ceará. O formulário de login inclui campos para nome de usuário e senha, além de um mecanismo de segurança Captcha para proteger os usuários.|
 
 
 ## Requisitos Não Funcionais
@@ -98,7 +106,8 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 # Prototipagem
 
-[Protótipo criado no FIGMA em 2022 por estudantes](https://www.figma.com/file/iNC7wyX9zP7Kmn3BhiCFGf/Fals6Hood-(Prot%C3%B3tipo-criado-por-estudantes-em-2022)?node-id=0%3A1&t=B16hgeZP3MSURCCa-1)
+[Protótipo criado no FIGMA em 2022 por estudantes](https://www.figma.com/fi0,
+le/iNC7wyX9zP7Kmn3BhiCFGf/Fals6Hood-(Prot%C3%B3tipo-criado-por-estudantes-em-2022)?node-id=0%3A1&t=B16hgeZP3MSURCCa-1)
 
 ![Imagem do Protótipo](/img/home.png)
 
