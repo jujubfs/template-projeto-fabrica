@@ -80,26 +80,46 @@ A especificação dos requisitos deste documento deve seguir as recomendações 
 
 A tabela a seguir contém a relação dos Requisitos Funcionais elicitados, com as colunas: identificador, nome, descrição e prioridade:
 
-| IDENTIFICADOR | NOME | DESCRIÇÃO |
-:---|:---|:---|
-|RF-001 |Cadastrar usuário na plataforma | Todos os usuários da plataforma precisam se registrar, fornecendo dados pessoais mínimos como e-mail, senha, nome completo, CPF, data de nascimento e endereço. O registro pode ser feito por meio de um formulário ou integração com contas do Google, Microsoft, Facebook ou login do servidor público. Cada usuário terá um perfil de acesso específico, que pode ser ajustado ou expandido conforme as necessidades surgirem. |
-|RF-002 | Publicar, manter e excluir documentos | A ferramenta permite que os usuários façam upload de materiais textuais em vários formatos, como OpenDocument, Microsoft Office, Adobe PDF, Plain Text e RichText Format, para os espaços digitais existentes.|
-|RF-003 | Excluir conta do usuário | A funcionalidade permite que os usuários excluam suas contas da plataforma diretamente na página de perfil, com uma confirmação simples via palavra-chave. Os dados da conta são excluídos imediatamente após a confirmação.|
-|RF-004 | Crias, manter e excluir salas de chat online (mensagens instantâneas) | Os administradores dos espaços digitais podem criar, manter e excluir salas de bate-papo online, onde os participantes interagem por meio de mensagens de texto. As salas podem ser configuradas para permitir apenas convidados ou serem abertas para usuários cadastrados na plataforma.|
-|RF-005 | Criar, manter e excluir “subsites” | A plataforma permite a criação de "subsites", que são seções independentes com seus próprios espaços digitais, comunidades e recursos. Apenas administradores e gestores podem criar subsites, que podem ter recursos exclusivos ou compartilhados com a plataforma principal e também podem personalizar seus temas gráficos.|
-|RF-006 | Buscar conteúdo na plataforma | Permite aos usuários localizar conteúdos diversos na plataforma, tais como postagens em fóruns, comunidades, pessoas, documentos, imagens, vídeos, web rádios etc. A busca deve ser realizada por padrão no contexto onde se encontra o usuário, mas sendo possível expandi-lo para toda a plataforma. Os resultados exibidos são apenas os que o usuário é capaz de acessar. A consulta deve reconhecer os principais operadores de busca, tais como “AND”, “OR”, “XOR”, “NOT”. Deve ainda existir uma opção de consulta avançada, onde é possível determinar critérios adicionais, como tipos de conteúdo, intervalo de tempo, nome de usuário etc.|
-|RF-007 | Cadastrar perfis de usuários | Os perfis de usuários são definidos pelo Governo do Estado e configurados pela administração da plataforma, permitindo incluir perfis de acesso com permissões específicas. Existem perfis pré-existentes, como Administrador, Gestor, Governo, OSC e Cidadão, além de perfis para espaços digitais, como Administrador, Moderador e Padrão. O perfil "Cidadão" é o padrão para novos usuários, com permissões mínimas.|
-|RF-008 | Identificar-se (login) na plataforma | A plataforma requer autenticação do usuário por meio de login e senha, com opção de login via Google, Facebook, Microsoft e, se possível, Governo do Ceará. O formulário de login inclui campos para nome de usuário e senha, além de um mecanismo de segurança Captcha para proteger os usuários.|
-
+| IDENTIFICADOR | NOME | DESCRIÇÃO | IMPORTÂNCIA |
+|:---|:---|:---|:---|
+|RF-001 |Cadastrar usuário na plataforma | Todos os usuários da plataforma precisam se registrar, fornecendo dados pessoais mínimos como e-mail, senha, nome completo, CPF, data de nascimento e endereço. O registro pode ser feito por meio de um formulário ou integração com contas do Google, Microsoft, Facebook ou login do servidor público. Cada usuário terá um perfil de acesso específico, que pode ser ajustado ou expandido conforme as necessidades surgirem. | Alta |
+|RF-002 | Publicar, manter e excluir documentos | A ferramenta permite que os usuários façam upload de materiais textuais em vários formatos, como OpenDocument, Microsoft Office, Adobe PDF, Plain Text e RichText Format, para os espaços digitais existentes.| Alta |
+|RF-003 | Excluir conta do usuário | A funcionalidade permite que os usuários excluam suas contas da plataforma diretamente na página de perfil, com uma confirmação simples via palavra-chave. Os dados da conta são excluídos imediatamente após a confirmação.| Média |
+|RF-004 | Crias, manter e excluir salas de chat online (mensagens instantâneas) | Os administradores dos espaços digitais podem criar, manter e excluir salas de bate-papo online, onde os participantes interagem por meio de mensagens de texto. As salas podem ser configuradas para permitir apenas convidados ou serem abertas para usuários cadastrados na plataforma.| Média |
+|RF-005 | Criar, manter e excluir “subsites” | A plataforma permite a criação de "subsites", que são seções independentes com seus próprios espaços digitais, comunidades e recursos. Apenas administradores e gestores podem criar subsites, que podem ter recursos exclusivos ou compartilhados com a plataforma principal e também podem personalizar seus temas gráficos.| Alta |
+|RF-006 | Buscar conteúdo na plataforma | Permite aos usuários localizar conteúdos diversos na plataforma, tais como postagens em fóruns, comunidades, pessoas, documentos, imagens, vídeos, web rádios etc. A busca deve ser realizada por padrão no contexto onde se encontra o usuário, mas sendo possível expandi-lo para toda a plataforma. Os resultados exibidos são apenas os que o usuário é capaz de acessar. A consulta deve reconhecer os principais operadores de busca, tais como “AND”, “OR”, “XOR”, “NOT”. Deve ainda existir uma opção de consulta avançada, onde é possível determinar critérios adicionais, como tipos de conteúdo, intervalo de tempo, nome de usuário etc.| Alta |
+|RF-007 | Cadastrar perfis de usuários | Os perfis de usuários são definidos pelo Governo do Estado e configurados pela administração da plataforma, permitindo incluir perfis de acesso com permissões específicas. Existem perfis pré-existentes, como Administrador, Gestor, Governo, OSC e Cidadão, além de perfis para espaços digitais, como Administrador, Moderador e Padrão. O perfil "Cidadão" é o padrão para novos usuários, com permissões mínimas.| Alta |
+|RF-008 | Identificar-se (login) na plataforma | A plataforma requer autenticação do usuário por meio de login e senha, com opção de login via Google, Facebook, Microsoft e, se possível, Governo do Ceará. O formulário de login inclui campos para nome de usuário e senha, além de um mecanismo de segurança Captcha para proteger os usuários.| Alta |
+|RF-009 | Criar temas gráficos para uso nos espaços digitais | Essa funcionalidade permite que administradores criem e gerenciem temas gráficos para plataformas digitais, definindo estilos, layouts e identidade visual. Eles podem salvar e compartilhar temas para uso geral, enquanto usuários podem personalizar seus espaços, mas não salvar temas globais.| Baixa |
+|RF-010 |Cadastrar livros | O requisito funcional de Cadastrar Livros permite que usuários autorizados insiram, editem e excluam informações de livros, incluindo título, autor, editora e ISBN, facilitando a gestão e busca de livros de forma eficiente. | Alta |
+|RF-011 |Cadastrar autores | O requisito funcional de Cadastrar Autores permite que usuários autorizados registrem informações sobre autores, incluindo nome, biografia e obras publicadas, possibilitando a gestão e busca eficiente de dados sobre escritores. | Alta |
+|RF-012 | Pesquisar Livros | Permite que usuários busquem livros por título, autor, gênero ou outras palavras-chave. | Média |
+|RF-013 | Gerenciar empréstimos | Permite que usuários autorizados registrem e gerenciem empréstimos de livros, incluindo data de devolução e status | Média | 
+|RF-014 | Visualizar Catálogo | Permite que usuários visualizem o catálogo de livros disponíveis na biblioteca. | Alta | 
+|RF-015 | Gerenciar perfil do usuário | Permite que usuários visualizem e editem suas informações de perfil, incluindo histórico de empréstimos. | Média |
+|RF-016 | Notificações | Envia notificações para usuários sobre datas de devolução, disponibilidade de livros reservados, etc. | Baixa |
+|RF-017 | Adiministração de conteúdo | Permite que administradores gerenciem o conteúdo do site, incluindo notícias, eventos e anúncios. | Alta |
+|RF-018 | Processamento de pagamento | Integração com gateways de pagamento e suporte a diferentes métodos de pagamento. | Alta |
+|RF-020 | Gestão de carrinho de compras | Adicionar, remover e visualizar itens no carrinho. | Alta |
+|RF-021 | Confirmação de pagamento | Envio de confirmação de pagamento e atualização do status de pagamento. | Alta |
+|RF-022 | Gestão de cupons e promoções | Aplicação e validação de cupons e promoções. | Alta |
+|RF-023 | Segurança de pagamento |  Conformidade com padrões de segurança e criptografia de dados de pagamento. | Alta |
+|RF-024 | Gestão de Reembolsos e Cancelamentos | Opção de solicitar reembolso ou cancelar compra e processamento de reembolsos. | Alta |
+|RF-025 | Histórico de pagamentos | Visualização do histórico de pagamentos e acesso a recibos e faturas. | Alta |
+|RF-026 | Pedidos realizados | Mostra ao usuário os produtos que ele já comprou | Média |
 
 ## Requisitos Não Funcionais
 A tabela a seguir contém a relação com os Requisitos Não Funcionais identificados, contendo identificador, nome, descrição e prioridade:
 
-| IDENTIFICADOR | NOME | DESCRIÇÃO |
-|:---|:---|:---|
-|RNF-001 |Nome do Requisito |Descreva aqui as informações sobre o requisito |
-|RNF-002 |Nome do Requisito |Descreva aqui as informações sobre o segundo requisito |
-
+| IDENTIFICADOR | NOME | DESCRIÇÃO | IMPORTÂNCIA |
+|:---|:---|:---|:---|
+|RNF-001 | Desempenho | O site deve carregar rapidamente e lidar com usuários simultâneos sem perda de desempenho. | Alta |
+|RNF-002 | Segurança | O site deve proteger informações pessoais e ser protegido contra ameaças. | Alta |
+|RNF-003 | Usabilidade | O site deve ser fácil de navegar e acessível para usuários de diferentes níveis de habilidade. | Alta |
+|RNF-004 | Compatibilidade | O site deve ser compatível com diferentes navegadores e dispositivos. | Alta |
+|RNF-005 | Manutenção | O site deve ser fácil de atualizar e manter, com backups automáticos. | Média |
+|RNF-006 | Acessibilidade | O site deve seguir diretrizes de acessibilidade web para garantir acesso a usuários com deficiências. | Alta |
+|RNF-007 | Recursos | O site deve utilizar recursos de produção como: MySql, JavaScript, CSS e Html. | Alta |
 
 [ [INÍCIO](#fibonacci-management-system) ]
 
