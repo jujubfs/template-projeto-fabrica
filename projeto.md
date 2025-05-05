@@ -131,6 +131,38 @@ le/iNC7wyX9zP7Kmn3BhiCFGf/Fals6Hood-(Prot%C3%B3tipo-criado-por-estudantes-em-202
 
 # Diagrama de Classes
 
+Classes:
+
+1. Livro
+- Atributos: título, autor, editora, ano de publicação, ISBN, preço
+- Métodos: visualizar detalhes, adicionar ao carrinho
+2. Autor
+- Atributos: nome, biografia
+- Métodos: visualizar obras
+3. Usuário
+- Atributos: nome, e-mail, senha
+- Métodos: login, visualizar histórico de compras/empréstimos
+4. Carrinho
+- Atributos: lista de livros
+- Métodos: adicionar livro, remover livro, visualizar carrinho
+5. Pedido
+- Atributos: lista de livros, total, status de pagamento
+- Métodos: realizar pagamento, visualizar detalhes
+6. Pagamento
+- Atributos: método de pagamento, status de pagament
+- Métodos: processar pagamento
+7. Empréstimo
+- Atributos: livro, usuário, data de devolução
+- Métodos: realizar empréstimo, devolver livro
+
+Relações:
+
+- Um livro pode ter um autor (1:N).
+- Um usuário pode ter muitos pedidos (1:N).
+- Um pedido pode ter muitos livros (1:N).
+- Um carrinho pertence a um usuário (1:1).
+- Um empréstimo é realizado por um usuário e envolve um livro (1:1).
+
 ![Diagrama de Classes](/img/CDModelo.png)
 
 [ [INÍCIO](#Bibliotea) ]
