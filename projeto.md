@@ -40,7 +40,7 @@
 | NOME DO PROJETO | Biblioteca |
 | GERENTE DO PROJETO | Julia Vitória Bitencourt da Fonseca Silva |
 | PRINCIPAL OBJETIVO | Desenvolver um software que possa representar a biblioteca de forma online, afim de trazer mais acessibilidade as pessoas. |
-| BENEFÍCIOS ESPERADOS |* Aumento no lucro da biblioteca real;<br/>* Novos alcances em mais leitores;<br/>* Menor curso de operação;<br/>* Mais reconhecimento;<br/>*|
+| BENEFÍCIOS ESPERADOS |* Aumento no lucro da biblioteca real;<br/>* Novos alcances em mais leitores;<br/>* Menor curso de operação;<br/>* Mais reconhecimento;<br/>|
 | INÍCIO E TÉRMINO PREVISTOS | 07/2025 - 07/2026 |
 
 [ [INÍCIO](#Bibliotea) ]
@@ -121,7 +121,7 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 # Prototipagem
 
-[Protótipo criado no FIGMA em 2022 por estudantes](https://www.figma.com/fi0,
+[Protótipo criado no FIGMA em 2025 por estudantes](https://www.figma.com/fi0,
 le/iNC7wyX9zP7Kmn3BhiCFGf/Fals6Hood-(Prot%C3%B3tipo-criado-por-estudantes-em-2022)?node-id=0%3A1&t=B16hgeZP3MSURCCa-1)
 
 ![Imagem do Protótipo](/img/home.png)
@@ -134,19 +134,19 @@ le/iNC7wyX9zP7Kmn3BhiCFGf/Fals6Hood-(Prot%C3%B3tipo-criado-por-estudantes-em-202
 Classes
 
 - **Livro:** representa um livro na biblioteca
-    - Atributos: idLivro, titulo, autor, editora, anoPublicacao, isbn, preco
+    - Atributos: ID_livro, titulo, autor, editora, ano_de_publicacao, isbn, preco, categoria, status
 - **Autor:** representa um autor de livros
-    - Atributos: idAutor, nome, biografia
+    - Atributos: ID_autor, nome, biografia, dataNascimento, dataFalecimento
 - **Usuário:** representa um usuário da biblioteca
-    - Atributos: idUsuario, nome, email, senha
+    - Atributos: nome, e-mail, senha, ID_usuario
 - **Carrinho:** representa um carrinho de compras de um usuário
-    - Atributos: idCarrinho, idUsuario, listaLivros
+    - Atributos: ID_carrinho, ID_usuario, listaLivros
 - **Pedido:** representa um pedido de compra de um usuário
-    - Atributos: idPedido, idUsuario, dataPedido, total
+    - Atributos: lista_de_livros, total, status_de_pagamento
 - **Pagamento:** representa um pagamento de um pedido
-    - Atributos: idPagamento, idPedido, metodoPagamento, valor
+    - Atributos: metodo_de_pagamento, status_de_pagamento, valor
 - **Empréstimo:** representa um empréstimo de um livro
-    - Atributos: idEmprestimo, idLivro, idUsuario, dataEmprestimo, dataDevolucao
+    - Atributos: livro, usuario, data_de_devolucao
 
 Relações
 
@@ -159,7 +159,7 @@ Relações
 - Um pagamento é feito para um pedido (1:1)
 - Um empréstimo é feito por um usuário e envolve um livro (1:1)
 
-![Diagrama de Classes](/img/CDModelo.png)
+![Diagrama de Classes](/img/Diagrama%20de%20Classe%20-%201.jpeg)
 
 [ [INÍCIO](#Bibliotea) ]
 
