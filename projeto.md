@@ -84,24 +84,23 @@ A tabela a seguir contém a relação dos Requisitos Funcionais elicitados, com 
 |RF-003 | Excluir conta do usuário | A funcionalidade permite que os usuários excluam suas contas da plataforma diretamente na página de perfil, com uma confirmação simples via palavra-chave. Os dados da conta são excluídos imediatamente após a confirmação.| Média |
 |RF-004 | Buscar conteúdo na plataforma | Permite aos usuários localizar conteúdos diversos na plataforma, tais como postagens em fóruns, comunidades, pessoas, documentos, imagens, vídeos, web rádios etc. A busca deve ser realizada por padrão no contexto onde se encontra o usuário, mas sendo possível expandi-lo para toda a plataforma. Os resultados exibidos são apenas os que o usuário é capaz de acessar. A consulta deve reconhecer os principais operadores de busca, tais como “AND”, “OR”, “XOR”, “NOT”. Deve ainda existir uma opção de consulta avançada, onde é possível determinar critérios adicionais, como tipos de conteúdo, intervalo de tempo, nome de usuário etc.| Alta |
 |RF-005 | Cadastrar perfis de usuários | Os perfis de usuários são definidos pelo Governo do Estado e configurados pela administração da plataforma, permitindo incluir perfis de acesso com permissões específicas. Existem perfis pré-existentes, como Administrador, Gestor, Governo, OSC e Cidadão, além de perfis para espaços digitais, como Administrador, Moderador e Padrão. O perfil "Cidadão" é o padrão para novos usuários, com permissões mínimas.| Alta |
-|RF-006 | Criar temas gráficos para uso nos espaços digitais | Essa funcionalidade permite que administradores criem e gerenciem temas gráficos para plataformas digitais, definindo estilos, layouts e identidade visual. Eles podem salvar e compartilhar temas para uso geral, enquanto usuários podem personalizar seus espaços, mas não salvar temas globais.| Baixa |
-|RF-007 |Cadastrar livros | O requisito funcional de Cadastrar Livros permite que usuários autorizados insiram, editem e excluam informações de livros, incluindo título, autor, editora e ISBN, facilitando a gestão e busca de livros de forma eficiente. | Alta |
-|RF-008 |Cadastrar autores | O requisito funcional de Cadastrar Autores permite que usuários autorizados registrem informações sobre autores, incluindo nome, biografia e obras publicadas, possibilitando a gestão e busca eficiente de dados sobre escritores. | Alta |
-|RF-009 |Cadastrar gêneros | O requisito funcional de Cadastrar gêneros permite que usuários autorizados registrem informações sobre os gêneros dos livros, possibilitando a gestão e busca eficiente de dados sobre so gêneros. | Alta |
-|RF-010 | Pesquisar Livros | Permite que usuários busquem livros por título, autor, gênero ou outras palavras-chave. | Média |
-|RF-011 | Gerenciar empréstimos | Permite que usuários autorizados registrem e gerenciem empréstimos de livros, incluindo data de devolução e status | Média | 
-|RF-012 | Visualizar Catálogo | Permite que usuários visualizem o catálogo de livros disponíveis na biblioteca. | Alta | 
-|RF-013 | Gerenciar perfil do usuário | Permite que usuários visualizem e editem suas informações de perfil, incluindo histórico de empréstimos. | Média |
-|RF-014 | Notificações | Envia notificações para usuários sobre datas de devolução, disponibilidade de livros reservados, etc. | Baixa |
-|RF-015 | Adiministração de conteúdo | Permite que administradores gerenciem o conteúdo do site, incluindo notícias, eventos e anúncios. | Alta |
-|RF-016 | Processamento de pagamento | Integração com gateways de pagamento e suporte a diferentes métodos de pagamento. | Alta |
-|RF-017 | Gestão de carrinho de compras | Adicionar, remover e visualizar itens no carrinho. | Alta |
-|RF-018 | Confirmação de pagamento | Envio de confirmação de pagamento e atualização do status de pagamento. | Alta |
-|RF-019 | Gestão de cupons e promoções | Aplicação e validação de cupons e promoções. | Alta |
-|RF-020 | Segurança de pagamento |  Conformidade com padrões de segurança e criptografia de dados de pagamento. | Alta |
-|RF-021 | Gestão de Reembolsos e Cancelamentos | Opção de solicitar reembolso ou cancelar compra e processamento de reembolsos. | Alta |
-|RF-022 | Histórico de pagamentos | Visualização do histórico de pagamentos e acesso a recibos e faturas. | Alta |
-|RF-023 | Pedidos realizados | Mostra ao usuário os produtos que ele já comprou | Média |
+|RF-006 |Cadastrar livros | O requisito funcional de Cadastrar Livros permite que usuários autorizados insiram, editem e excluam informações de livros, incluindo título, autor, editora e ISBN, facilitando a gestão e busca de livros de forma eficiente. | Alta |
+|RF-007 |Cadastrar autores | O requisito funcional de Cadastrar Autores permite que usuários autorizados registrem informações sobre autores, incluindo nome, biografia e obras publicadas, possibilitando a gestão e busca eficiente de dados sobre escritores. | Alta |
+|RF-008 |Cadastrar gêneros | O requisito funcional de Cadastrar gêneros permite que usuários autorizados registrem informações sobre os gêneros dos livros, possibilitando a gestão e busca eficiente de dados sobre so gêneros. | Alta |
+|RF-009 | Pesquisar Livros | Permite que usuários busquem livros por título, autor, gênero ou outras palavras-chave. | Média |
+|RF-010 | Gerenciar empréstimos | Permite que usuários autorizados registrem e gerenciem empréstimos de livros, incluindo data de devolução e status | Média | 
+|RF-011 | Visualizar Catálogo | Permite que usuários visualizem o catálogo de livros disponíveis na biblioteca. | Alta | 
+|RF-012 | Gerenciar perfil do usuário | Permite que usuários visualizem e editem suas informações de perfil, incluindo histórico de empréstimos. | Média |
+|RF-013 | Notificações | Envia notificações para usuários sobre datas de devolução, disponibilidade de livros reservados, etc. | Baixa |
+|RF-014 | Adiministração de conteúdo | Permite que administradores gerenciem o conteúdo do site, incluindo notícias, eventos e anúncios. | Alta |
+|RF-015 | Processamento de pagamento | Integração com gateways de pagamento e suporte a diferentes métodos de pagamento. | Alta |
+|RF-016 | Gestão de carrinho de compras | Adicionar, remover e visualizar itens no carrinho. | Alta |
+|RF-017 | Confirmação de pagamento | Envio de confirmação de pagamento e atualização do status de pagamento. | Alta |
+|RF-018 | Gestão de cupons e promoções | Aplicação e validação de cupons e promoções. | Alta |
+|RF-019 | Segurança de pagamento |  Conformidade com padrões de segurança e criptografia de dados de pagamento. | Alta |
+|RF-020 | Gestão de Reembolsos e Cancelamentos | Opção de solicitar reembolso ou cancelar compra e processamento de reembolsos. | Alta |
+|RF-021 | Histórico de pagamentos | Visualização do histórico de pagamentos e acesso a recibos e faturas. | Alta |
+|RF-022 | Pedidos realizados | Mostra ao usuário os produtos que ele já comprou | Média |
 
 ## Requisitos Não Funcionais
 A tabela a seguir contém a relação com os Requisitos Não Funcionais identificados, contendo identificador, nome, descrição e prioridade:
